@@ -164,8 +164,8 @@ $(document).ready( function(){
 var viesti = {
 	messageType: "SETTING",
 	options:{
-		"width":700,
-		"height":400
+		"width":600,
+		"height":300
 		}
 		};
 	});
