@@ -162,8 +162,11 @@ tx.font="30px Arial";
 tx.fillText("Start the game by pressing Start button: ",50,100);
 var viesti = {
 	messageType: "SETTING",
-	options:{"width":600,
-		"height":300}}
+	options:{
+		"width":600,
+		"height":300
+		}
+		};
 window.parent.postMessage(viesti,"*");
 
 
