@@ -164,7 +164,7 @@ var viesti = {
 	messageType: "SETTING",
 	options:{"width":600,
 		"height":300}}
-
+window.parent.postMessage(viesti,"*");
 
 
 
