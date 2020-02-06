@@ -168,8 +168,9 @@ var viesti = {
 		"height":300
 		}
 		};
-	});
 window.parent.postMessage(viesti,"*");
+
+	});
 
 
 
