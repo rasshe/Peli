@@ -165,17 +165,6 @@ function StartGame(){
 tx.font="30px Arial";
 tx.fillText("Start the game by pressing Start button: ",50,100);
 
-$(document).ready(function(){
-var viesti = {
-	'messageType': "SETTING",
-	'options':{
-		"width":700,
-		"height":400
-		}
-		};
-window.parent.postMessage(viesti,"*");
-});
-
 
 
 
