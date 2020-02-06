@@ -1,4 +1,8 @@
 
+
+
+
+
 // getting the canvas element from html and configuring it to 2D
 var taulu= document.getElementById("taulu");
 var tx= taulu.getContext("2d");
@@ -162,8 +166,8 @@ tx.font="30px Arial";
 tx.fillText("Start the game by pressing Start button: ",50,100);
 
 var viesti = {
-	messageType: "SETTING",
-	options:{
+	'messageType': "SETTING",
+	'options':{
 		"width":600,
 		"height":300
 		}
