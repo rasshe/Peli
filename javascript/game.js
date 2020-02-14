@@ -168,5 +168,18 @@ tx.fillText("Start the game by pressing Start button: ",50,100);
 
 
 
+
+    var message =  {
+      messageType: "SETTING",
+      options: {
+          "width": 700, //Integer
+        "height": 300 //Integer
+        }
+    };
+    window.parent.postMessage(message, "*");
+
+ 
+
+
 // starting from here,
 //
