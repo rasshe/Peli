@@ -169,6 +169,7 @@ tx.fillText("Start the game by pressing Start button: ",50,100);
 
 
 
+$(document).ready(function(){
     var message =  {
       messageType: "SETTING",
       options: {
@@ -179,6 +180,8 @@ tx.fillText("Start the game by pressing Start button: ",50,100);
     window.parent.postMessage(message, "*");
 
  
+  });
+
 
 
 // starting from here,
