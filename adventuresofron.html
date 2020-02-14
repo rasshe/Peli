@@ -32,13 +32,24 @@
 <script>
 $(document).ready(function(){
 var viesti = {
-	messageType: "SETTING",
-	options:{
-		"width":1000,
+	"messageType": "SETTING",
+	"options":{
+		"width":600,
 		"height":500
 		}
 		};
 window.parent.postMessage(viesti,"*");
+
+var viesti = {
+	messageType: "SETTING",
+	options:{
+		"width":600,
+		"height":500
+		}
+		};
+window.parent.postMessage(viesti,"*");
+
+
 });
 </script>
 
