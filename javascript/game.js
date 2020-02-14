@@ -1,6 +1,7 @@
 
 
 
+$(document).ready(function(){
 
 
 // getting the canvas element from html and configuring it to 2D
@@ -169,7 +170,6 @@ tx.fillText("Start the game by pressing Start button: ",50,100);
 
 
 
-$(document).ready(function(){
     var message =  {
       messageType: "SETTING",
       options: {
