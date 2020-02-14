@@ -30,24 +30,27 @@
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.32" />
 
+
+<script>
+$(document).ready(function(){
+    var message =  {
+      messageType: "SETTING",
+      options: {
+          "width": 700, //Integer
+        "height": 300 //Integer
+        }
+    };
+    window.parent.postMessage(message, "*");
+
+  });
+</script>
+
+
+
+
 </head>
 
 <body>
-<script>
-$(document).ready(function(){
-
-var viesti = {
-	messageType: "SETTING",
-	options:{
-		"width":10000,
-		"height":5000
-		}
-		};
-window.parent.postMessage(viesti,"*");
-
-
-});
-</script>
 
 
 <canvas id="taulu" width="600" height="300"></canvas>
