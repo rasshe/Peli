@@ -76,9 +76,7 @@ var score=0;
 var myfun;
 
 function jump(){
-	var i;
-	// function for jumping.
-	
+
 	x=lim-hyppy;
 	}
 
@@ -108,7 +106,7 @@ document.body.onkeyup=function(e){
 		jump();
 		
 		}
-	}
+	};
 
 
 
@@ -190,7 +188,7 @@ function forward(){
 	// Basically Main function that is called in every 10 ms	
 	tx.clearRect(0,0,taulu.width,taulu.height);
 	tx.font="10px Arial";
-	tx.fillText("Score: "+score.toFixed(0),10,20)
+	tx.fillText("Score: "+score.toFixed(0),10,20);
 	createStage();
 	roni();
 
@@ -207,7 +205,7 @@ function StartGame(){
 	//searchBt.remove();
 	score=0;
 	move=0;
-	x=lim
+	x=lim;
 	myfun= setInterval(forward,10);
 	
 	
